@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inicio</class>
+ <widget class="QMainWindow" name="inicio">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>694</width>
+    <height>493</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Inicio</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="titulo_login">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>10</y>
+      <width>711</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>85</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>85</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>154</red>
+          <green>158</green>
+          <blue>161</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="127">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>Zero Velocity BRK</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#titulo_login{
+	background-color: rgba(0,0,0,0.5);
+}</string>
+    </property>
+    <property name="text">
+     <string>NEXT GOBERMENT VOTATION SYSTEM</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>511</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0,0,0,0.5);
+border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="subtitulo_login">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>40</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>154</red>
+           <green>158</green>
+           <blue>161</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Zero Velocity BRK</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#subtitulo_login{
+	background-color: rgba(0,0,0,0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Iniciar Sesion</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="texto2_login">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>100</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>154</red>
+           <green>158</green>
+           <blue>161</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Zephyrean Gust BRK</family>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#texto2_login{
+	background-color: rgba(0,0,0,0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Identidad:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="texto1_login">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>160</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>85</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="WindowText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>154</red>
+           <green>158</green>
+           <blue>161</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="0">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>Zephyrean Gust BRK</family>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel#texto1_login{
+	background-color: rgba(0,0,0,0);
+}</string>
+     </property>
+     <property name="text">
+      <string>Contrasena:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="identidad_inicio">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>100</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit#identidad_inicio{
+background-color: rgba(0,50,100,0.6);
+border-radius: 10px 10px 100px 100px; 
+color: skyblue;
+border: skyblue 3px;
+}
+</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="contrasena_inicio">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>150</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <italic>true</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit#contrasena_inicio{
+background-color: rgba(0,50,100,0.6);
+border-radius: 10px 10px 100px 100px; 
+color: skyblue;
+border: skyblue 3px;
+}
+</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="iniciar_sesion">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>220</y>
+       <width>321</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Zero Velocity BRK</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#iniciar_sesion {
+background-color: rgba(0,50,100,0.6);
+border-radius: 10px 10px 100px 100px; 
+color: skyblue;
+}
+
+QPushButton#iniciar_sesion:hover{
+    background-color: rgba(0,100,100,0.6);
+	color: yellow;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Iniciar Sesion</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ir_registrarse">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>290</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Zero Velocity BRK</family>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#ir_registrarse{
+background-color: rgba(0,50,100,0.6);
+border-radius: 10px 10px 100px 100px; 
+color: skyblue;
+}
+
+QPushButton#ir_registrarse:hover{
+    background-color: rgba(0,100,100,0.6);
+	color: yellow;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Registrarse</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-100</x>
+      <y>0</y>
+      <width>861</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagenes/plane-wallpaper-picture-wallpapers.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>titulo_login</zorder>
+   <zorder>frame</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
